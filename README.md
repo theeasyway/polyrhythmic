@@ -55,7 +55,7 @@ See the /examples folder for .mid and .mp3 examples.
 
 ## Additional Utility
 
-The repository also includes a utility script `note_to_midi_conversion.py` that converts musical note names to their corresponding MIDI pitches. This can be helpful when working with specific note sequences in your polyrhythmic MIDI sequences.
+The repository also includes a utility script `note_to_pitch.py` that converts musical note names to their corresponding MIDI pitches. This can be helpful when working with specific note sequences in your polyrhythmic MIDI sequences.
 
 ## Contributing
 
