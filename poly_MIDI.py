@@ -3,18 +3,16 @@ from datetime import datetime
 
 
 # Parameters
-#pitches = [16, 19, 23, 26, 28, 31, 35, 38, 40, 42, 43, 45, 47, 50, 52, 54, 55, 57, 59, 62, 64, 66, 67, 69, 71, 74, 76, 78, 79, 81, 83, 86, 88]  # MIDI notes to use
+pitches = [23, 26, 28, 31, 35, 38, 40, 42, 43, 45, 47, 50, 52, 54, 55, 57, 59, 62, 64, 66, 67, 69, 71, 74, 76, 78, 79, 81, 83, 86, 88]  # MIDI notes to use
 #pitches = [24, 36, 43, 53, 63, 70, 74, 77, 82, 86, 91]
 #pitches = [24, 36, 43, 53, 62, 69, 74, 82, 86]
 #pitches = [12, 24, 31, 39, 46, 50, 53, 58, 62, 65, 70, 72, 75]
-pitches = [0, 12, 17, 22, 24, 27, 29, 32, 34, 36, 39, 41, 44, 46, 48, 51, 53, 56] 
-sweeps = 50  # Number of sweeps
-base_note_gap = 2.0  # Gap between the notes at a given pitch usually 2.0 for large notesets
-note_length = 0.8  # Duration of each note
-slope_factor = 1 # multiplier for number of extra notes (will make the slope more aggressive)
+#pitches = [0, 12, 17, 22, 24, 27, 29, 32, 34, 36, 39, 41, 44, 46, 48, 51, 53, 56] 
+sweeps = 100  # Number of sweeps
+base_note_gap = 3.0  # Gap between the notes at a given pitch 
+note_length = 2.0  # Duration of each note
+slope_factor = 1 # multiplier for number of extra notes (increasing this from 1 will make the slope more aggressive)
 start_offset = 0
-#start_offset_increase = 0.1 # increase in start offset for each pitch pair
-
 
 sequence_duration = sweeps * base_note_gap  # Duration of the whole sequence
 
